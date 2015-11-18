@@ -12,7 +12,7 @@
 }
 
 #io2012-toc .nav-pills > .active > a{
-  background-color: darkslategray;
+  background-color: #ffcc99;
   color: yellow;
 }
 #io2012-toc li {
@@ -20,7 +20,7 @@
 }
 
 #io2012-toc li.current {
-  background-color: yellow;
+  background-color: #ffcc99;
 }
 
 .license {
@@ -58,7 +58,7 @@ slide:not(.segue) h2{
   text-transform: normal;
   letter-spacing: -2px;
   line-height: 1.2em;
-/*  color: #193441;*/
+/*  color: #99cc00;*/
 /*  color: #02574D;*/
   color: #CC2904;
 }
@@ -70,6 +70,7 @@ slides > slide > hgroup + article {
 
 /* Remove Border, Margins and Padding from iframe */
 iframe {
+  background-color: #ffcc99;
   border: none;
   margin: 0;
   padding: 0;
@@ -156,6 +157,7 @@ table th {
 /* Tables */
 
 table {
+  background-color:#ffcc99;
   border: none;
   width: 100%;
   border-collapse: collapse;
@@ -176,7 +178,7 @@ table th, table td, table caption {
   vertical-align: top;
 }
 table th {
-  background: #CFCEBD;
+  background: #ffcc99;
   color: #575400;
   text-transform: uppercase;
 }
@@ -317,7 +319,7 @@ img.center {
 }
 
 body {
-  background-color: #000;
+  background-color: #ffcc99;
 }
 .quiz-option label{
   display: inline;
@@ -330,7 +332,7 @@ slide.segue h2{
 slide:not(.segue)  h2{
  font-family: "Open Sans Condensed";
  font-weight: 700;
- color: darkslategray;
+ color: #99cc00;
 }
 article p {
   font-family: "Open Sans"
@@ -352,7 +354,7 @@ pre code {
 }
 
 .title-slide {
-  background-color: #CBE7A5; /* #EDE0CF; ; #CA9F9D*/
+  background-color: #ffcc99; /* #ffcc99; #ffcc99; #CA9F9D*/
   /* background-image:url(http://goo.gl/EpXln); */
 }
 
@@ -362,7 +364,7 @@ pre code {
 
 .title-slide hgroup > h1, 
 .title-slide hgroup > h2 {
-  color: #535E43 ;  /* ; #EF5150*/
+  color: #99cc00 ;  /* ; #99cc00*/
 }
 
 

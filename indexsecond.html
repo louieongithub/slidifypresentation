@@ -86,27 +86,18 @@ head(Orange)
     <p>This app uses a mathematical model that can predict how big your orange tree will grow.  </p>
 
 <pre><code class="r">fit1&lt;-lm(circumference~age,data=Orange)
-summary(fit1)
+summary(fit1)$call
 </code></pre>
 
-<pre><code>## 
-## Call:
-## lm(formula = circumference ~ age, data = Orange)
-## 
-## Residuals:
-##     Min      1Q  Median      3Q     Max 
-## -46.310 -14.946  -0.076  19.697  45.111 
-## 
-## Coefficients:
-##              Estimate Std. Error t value Pr(&gt;|t|)    
-## (Intercept) 17.399650   8.622660   2.018   0.0518 .  
-## age          0.106770   0.008277  12.900 1.93e-14 ***
-## ---
-## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
-## 
-## Residual standard error: 23.74 on 33 degrees of freedom
-## Multiple R-squared:  0.8345, Adjusted R-squared:  0.8295 
-## F-statistic: 166.4 on 1 and 33 DF,  p-value: 1.931e-14
+<pre><code>## lm(formula = circumference ~ age, data = Orange)
+</code></pre>
+
+<pre><code class="r">summary(fit1)$coefficients
+</code></pre>
+
+<pre><code>##               Estimate  Std. Error   t value     Pr(&gt;|t|)
+## (Intercept) 17.3996502 8.622659801  2.017898 5.179267e-02
+## age          0.1067703 0.008276623 12.900228 1.930596e-14
 </code></pre>
 
   </article>
@@ -121,6 +112,8 @@ summary(fit1)
     <p>Try out the app at <a href="https://louieonshinyapps.shinyapps.io/orangeapp">https://louieonshinyapps.shinyapps.io/orangeapp</a>  </p>
 
 <h2>Find out if Orange Trees are great hugging trees!</h2>
+
+<p><img src="orangetree.png" alt="alt text"></p>
 
   </article>
   <!-- Presenter Notes -->
